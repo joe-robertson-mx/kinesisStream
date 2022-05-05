@@ -1,17 +1,11 @@
 ## KinesisStream
-[AWS Kinesis stream widget]
+A pluggable widget to retrieve a historic AWS Kinesis Video Stream
 
 ## Features
 [feature highlights]
 
 ## Usage
-[step by step instructions]
-
-## Demo project
-[link to sandbox]
-
-## Issues, suggestions and feature requests
-[link to GitHub issues]
+Add widget in a dataview within a Mendix project. The object of the dataview should have the Stream name, Clip Start DateTime and Clip End DateTime
 
 ## Development and contribution
 
