@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget id="mendix.kinesisstream.KinesisStream" pluginWidget="true" needsEntityContext="true" offlineCapable="true"
+        supportedPlatform="Web"
+        xmlns="http://www.mendix.com/widget/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd">
+    <name>Kinesis Stream</name>
+    <description>AWS Kinesis stream widget</description>
+    <icon/>
+    <properties>
+        <propertyGroup caption="General">
+            <property key="accessKey" type="string" required="true">
+                <caption>Access Key</caption>
+                <description />
+            </property>
+            <property key="secretKey" type="string" required="true">
+                <caption>Secret Key</caption>
+                <description />
+            </property>
+            <property key="region" type="string" required="true">
+                <caption>Region</caption>
+                <description />
+            </property>
+            <property key="streamName" type="attribute" required="true">
+                <caption>Stream Name</caption>
+                <description />
+                <attributeTypes>
+                    <attributeType name="String"/>
+                </attributeTypes>
+            </property>
+            <property key="startDate" type="attribute" required="true">
+                <caption>Start Date</caption>
+                <description />
+                <attributeTypes>
+                    <attributeType name="DateTime"/>
+                </attributeTypes>
+            </property>
+            <property key="endDate" type="attribute" required="true">
+                <caption>End Date</caption>
+                <description />
+                <attributeTypes>
+                    <attributeType name="DateTime"/>
+                </attributeTypes>
+            </property>
+        </propertyGroup>
+    </properties>
+</widget>
