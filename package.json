@@ -35,7 +35,6 @@
     "@aws-sdk/client-kinesis-video": "^3.83.0",
     "@aws-sdk/client-kinesis-video-archived-media": "^3.83.0",
     "classnames": "^2.2.6",
-    "react-hls-player": "^3.0.7",
-    "react-player": "^2.10.0"
+    "react-hls-player": "^3.0.7"
   }
 }
